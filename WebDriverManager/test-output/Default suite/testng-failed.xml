@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="ThroneWeb.Header">
+      <class name="ThroneWeb.Footer">
         <methods>
-          <include name="secondtry"/>
+          <include name="firsttry"/>
         </methods>
-      </class> <!-- ThroneWeb.Header -->
+      </class> <!-- ThroneWeb.Footer -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
